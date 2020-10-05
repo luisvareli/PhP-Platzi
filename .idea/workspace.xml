@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="" />
+    <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OOP/vehicles/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/vehicles/Truck.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/vehicles/VehicleBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +15,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iKcHSqXAUSwcrUKSBcqBnFjlNo" />
   <component name="ProjectViewState">
@@ -31,6 +40,7 @@
       <updated>1601659635636</updated>
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
+      <workItem from="1601906244375" duration="2058000" />
     </task>
     <servers />
   </component>
@@ -38,10 +48,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601763233256">
+    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601906527465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601763233256" />
+    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601906527465" />
     <state x="1310" y="299" key="refactoring.ChangeSignatureDialog" timestamp="1601766164528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
