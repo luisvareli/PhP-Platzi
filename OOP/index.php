@@ -2,8 +2,22 @@
 
 include 'vehicles/Car.php';
 include 'vehicles/Truck.php';
+include 'vehicles/ToyCar.php';
 
-use Vehicles\{car,truck};
+use Vehicles\{car,truck,ToyCar};
+
+
+try {
+    echo 'Class ToyCar<br>';
+    $toyCar =new ToyCar('Luis');
+   // $toyCar->move();
+} catch (Exception $e){
+    echo 'This is a toy<br><br>';
+    //log...//
+} finally {
+    echo 'finally<br><br>';
+}
+
 
 //class vehicle
 //{
@@ -64,3 +78,8 @@ $truck2 =new truck('Villaplana','Pickup');
 $truck2->move();
 
 echo '<br>Total Truck: ' . Truck::getTotal() .'<br>';
+
+$ser = serialize($car);
+$newCar = unserialize($ser);
+
+echo 'NewCar Owner: ' . $newCar->getOwner() . '<br>';
