@@ -22,6 +22,7 @@ $queryResult = $pdo->query("SELECT * FROM users");
         <tr>
             <th>Name</th>
             <th>Email</th>
+            <th>Edit</th>
         </tr>
 
         <?php
@@ -29,7 +30,9 @@ $queryResult = $pdo->query("SELECT * FROM users");
             echo '<tr>';
             echo '<td>' . $row['name'] . '</td>';
             echo '<td>' . $row['email'] . '</td>';
+            echo '<td><a href="update.php?id='. $row['id'] .'">Edit</a>';
             echo '</tr>';
+
         }
         ?>
     </table>
