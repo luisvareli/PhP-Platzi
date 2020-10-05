@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/databases/update.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/admin/insert-post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/admin/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/fake-login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/databases/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/list.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +32,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blog" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,7 +50,7 @@
       <updated>1601659635636</updated>
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
-      <workItem from="1601906244375" duration="16245000" />
+      <workItem from="1601906244375" duration="34357000" />
     </task>
     <servers />
   </component>
@@ -46,17 +58,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601910281987">
+    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601935770628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601910281987" />
+    <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1601935770628" />
     <state x="1310" y="299" key="refactoring.ChangeSignatureDialog" timestamp="1601766164528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1310" y="299" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601766164528" />
-    <state x="1190" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1601908394437">
+    <state x="1190" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1601935729773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1190" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601908394437" />
+    <state x="1190" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601935729773" />
   </component>
 </project>
