@@ -66,6 +66,8 @@ try {
 echo 'class car<br>';
 $car =new car('Luis');
 $car->move();
+echo 'GPS pos: ' . $car->getPos();
+
 //echo 'Owner car: ' . $car->getOwner() . '<br>';
 
 echo'<br>class truck 1<br>';

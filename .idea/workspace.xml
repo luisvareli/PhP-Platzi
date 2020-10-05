@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP/vehicles/ToyCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/vehicles/GPSTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/vehicles/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/Truck.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/Truck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/VehicleBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/VehicleBase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <updated>1601659635636</updated>
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
-      <workItem from="1601906244375" duration="5852000" />
+      <workItem from="1601906244375" duration="13095000" />
     </task>
     <servers />
   </component>
