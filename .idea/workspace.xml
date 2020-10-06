@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/IndexController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/views/layout.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PhP-platzi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhP-platzi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/app/controllers/admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_real.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/admin/insert-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/insert-post.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/admin/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/post.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/external/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,9 @@
     <include_path>
       <path value="$PROJECT_DIR$/Blog/vendor/composer" />
       <path value="$PROJECT_DIR$/Blog/vendor/phroute/phroute" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Blog/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iKcHSqXAUSwcrUKSBcqBnFjlNo" />
@@ -42,13 +55,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog\views\admin" />
       <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog\views" />
       <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +78,8 @@
       <workItem from="1601954819141" duration="1217000" />
       <workItem from="1601956783953" duration="28000" />
       <workItem from="1601993253707" duration="7941000" />
-      <workItem from="1602003269329" duration="8396000" />
+      <workItem from="1602003269329" duration="9115000" />
+      <workItem from="1602012884439" duration="6801000" />
     </task>
     <servers />
   </component>
@@ -73,6 +87,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1167" y="344" key="#Notifications" timestamp="1602012867938">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1167" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602012867938" />
     <state x="1281" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601935770628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

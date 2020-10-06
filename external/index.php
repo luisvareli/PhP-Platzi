@@ -3,7 +3,7 @@
 include_once 'functions1.php';
 
 
-echo '<p>Text from index.php</p>';
+echo '<p>Text from index.twig</p>';
 
 sum(10, 20);
 

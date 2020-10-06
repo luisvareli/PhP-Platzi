@@ -4,6 +4,9 @@
     <include_path>
       <path value="$PROJECT_DIR$/Blog/vendor/composer" />
       <path value="$PROJECT_DIR$/Blog/vendor/phroute/phroute" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Blog/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
