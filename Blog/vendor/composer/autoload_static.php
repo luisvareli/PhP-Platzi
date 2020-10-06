@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879
+class ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -56,6 +56,7 @@ class ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Inflector\\' => 19,
         ),
         'C' => 
@@ -151,6 +152,10 @@ class ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879
         array (
             0 => __DIR__ . '/..' . '/illuminate/container',
         ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
         'Doctrine\\Inflector\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
@@ -176,9 +181,9 @@ class ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit1b3f67d3803b4f97cea0fc2d2bbd4879::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08::$classMap;
 
         }, null, ClassLoader::class);
     }
