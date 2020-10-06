@@ -31,12 +31,12 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
         <div class="col-md-8">
             <h2>Posts</h2>
 
-            <a class="btn btn-primary"href="insert-post.php">New Post</a>
+            <a class="btn btn-primary" href="insert-post.php">New Post</a>
             <table class="table">
                 <tr>
-                <th>Title</th>
-                <th>Edit</th>
-                <th>Delete</th>
+                    <th>Title</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
                 <?php
                 foreach ($blogPosts as $blogPost) {
@@ -68,8 +68,6 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </div>
-
-
 
 
 </div>

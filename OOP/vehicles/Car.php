@@ -5,12 +5,14 @@ namespace Vehicles;
 require_once 'VehicleBase.php';
 require_once 'GPSTrait.php';
 
-class car extends VehicleBase implements \Serializable {
+class car extends VehicleBase implements \Serializable
+{
 
     use GPSTrait;
 
-    public  function move() {
-        echo $this->startEngine() .'<br>';
+    public function move()
+    {
+        echo $this->startEngine() . '<br>';
         echo 'Car: moving<br>';
     }
 
@@ -24,9 +26,10 @@ class car extends VehicleBase implements \Serializable {
         echo 'Serialize<br>';
         return $this->owner;
     }
+
     public function unserialize($serialized)
     {
         echo 'Unserialize<br>';
-        $this->owner=$serialized;
+        $this->owner = $serialized;
     }
 }

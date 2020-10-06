@@ -2,7 +2,7 @@
 
 $color = 'green';
 
-switch ($color){
+switch ($color) {
     case 'blue':
         echo 'Color is blue';
         break;

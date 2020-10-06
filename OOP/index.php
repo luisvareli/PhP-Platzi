@@ -4,14 +4,14 @@ include 'vehicles/Car.php';
 include 'vehicles/Truck.php';
 include 'vehicles/ToyCar.php';
 
-use Vehicles\{car,truck,ToyCar};
+use Vehicles\{car, truck, ToyCar};
 
 
 try {
     echo 'Class ToyCar<br>';
-    $toyCar =new ToyCar('Luis');
-   // $toyCar->move();
-} catch (Exception $e){
+    $toyCar = new ToyCar('Luis');
+    // $toyCar->move();
+} catch (Exception $e) {
     echo 'This is a toy<br><br>';
     //log...//
 } finally {
@@ -64,22 +64,22 @@ try {
 //
 //}
 echo 'class car<br>';
-$car =new car('Luis');
+$car = new car('Luis');
 $car->move();
 echo 'GPS pos: ' . $car->getPos();
 
 //echo 'Owner car: ' . $car->getOwner() . '<br>';
 
-echo'<br>class truck 1<br>';
-$truck1 =new truck('Villaplana','Pickup');
+echo '<br>class truck 1<br>';
+$truck1 = new truck('Villaplana', 'Pickup');
 $truck1->move();
 //echo 'Owner truck: ' . $truck->getOwner();
 
-echo'<br>class truck 2<br>';
-$truck2 =new truck('Villaplana','Pickup');
+echo '<br>class truck 2<br>';
+$truck2 = new truck('Villaplana', 'Pickup');
 $truck2->move();
 
-echo '<br>Total Truck: ' . Truck::getTotal() .'<br>';
+echo '<br>Total Truck: ' . Truck::getTotal() . '<br>';
 
 $ser = serialize($car);
 $newCar = unserialize($ser);

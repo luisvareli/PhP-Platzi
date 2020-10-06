@@ -1,7 +1,7 @@
 <?php
 
 $value = $_COOKIE['count'];
-$value ++;
+$value++;
 
 setcookie('count', $value);
 

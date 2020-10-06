@@ -1,8 +1,8 @@
 <?php
 
-$x =3;
+$x = 3;
 $numbers = [1, 2, 3, 4, 5];
-$closure = function ($n) use($x){
+$closure = function ($n) use ($x) {
     return $n * $x;
 };
 

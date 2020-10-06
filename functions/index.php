@@ -8,13 +8,14 @@
 hello('Luis');
 hello('Isaac');*/
 
-$x =100;
+$x = 100;
 
-function sum($a, $b){
+function sum($a, $b)
+{
     $x = $a + $b;
     return $x;
 }
 
-$c = sum(5,6);
+$c = sum(5, 6);
 var_dump($c);
 var_dump($x);

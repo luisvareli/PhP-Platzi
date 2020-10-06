@@ -8,18 +8,23 @@ abstract class VehicleBase
 
     public function __construct($ownerName)
     {
-        $this->owner =$ownerName;
+        $this->owner = $ownerName;
         echo 'construct<br>';
     }
 
-    public  function move(){
+    public function move()
+    {
         echo $this->startEngine() . '<br>';
         echo 'moving<br>';
     }
-    public function getOwner(){
+
+    public function getOwner()
+    {
         return $this->owner;
     }
-    public function setOwner($owner){
+
+    public function setOwner($owner)
+    {
         $this->owner = $owner;
     }
 

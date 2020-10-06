@@ -6,7 +6,7 @@ $id = $_GET['id'];
 
 $sql = 'DELETE FROM user WHERE id=:id';
 $query = $pdo->prepare($sql);
-$query -> execute([
+$query->execute([
     'id' => $id
 ]);
 

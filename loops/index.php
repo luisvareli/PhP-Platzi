@@ -17,6 +17,6 @@
 //} while($i <=10);
 
 $names = ['Alex', 'Elizabeth', 'Mary'];
-foreach ($names as $key =>$name) {
-    echo $key . ' - '. $name . '<br>';
+foreach ($names as $key => $name) {
+    echo $key . ' - ' . $name . '<br>';
 }
