@@ -4,38 +4,8 @@
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/insert-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/insert-post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/admin/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/GPSTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/GPSTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/Truck.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/Truck.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/vehicles/VehicleBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/vehicles/VehicleBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/closures/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/closures/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conditionals/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/conditionals/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies/add1.php" beforeDir="false" afterPath="$PROJECT_DIR$/cookies/add1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies/destroy.php" beforeDir="false" afterPath="$PROJECT_DIR$/cookies/destroy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookies/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cookies/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/fake-login.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/fake-login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/databases/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/external/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/external/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/external/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-world/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/hello-world/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loops/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/loops/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators/arithmetic.php" beforeDir="false" afterPath="$PROJECT_DIR$/operators/arithmetic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators/arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/operators/arrays.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators/increment.php" beforeDir="false" afterPath="$PROJECT_DIR$/operators/increment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operators/logical.php" beforeDir="false" afterPath="$PROJECT_DIR$/operators/logical.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sessions/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sessions/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables/arrays.php" beforeDir="false" afterPath="$PROJECT_DIR$/variables/arrays.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +44,7 @@
       <updated>1601659635636</updated>
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
-      <workItem from="1601906244375" duration="40063000" />
+      <workItem from="1601906244375" duration="43495000" />
     </task>
     <servers />
   </component>

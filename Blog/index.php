@@ -33,6 +33,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
                 echo '<p>Oct 5, 2020 by <a href="">Luis</a></p>';
                 echo '<div class="blog-post-image">';
                 echo '<img src="images/banner.jpg" alt="">';
+                echo '</div>';
                 echo '<div class="blog-post-content">';
                 echo $blogPost['content'];
                 echo '</div>';
@@ -40,29 +41,20 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
             }
             ?>
         </div>
+
+        <div class="col-md-4">
+            <p>Sidebar</p>
+        </div>
     </div>
-</div>
+    <div class="row">
+        <footer>
+            This is a footer<br>
+            <a href="admin/index.php">Admin Panel</a>
+        </footer>
+        <div class="col-md-12">
 
-<div class="col-md-4">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada lorem sit amet mauris venenatis,
-        ut scelerisque sapien venenatis. Duis efficitur odio id gravida posuere. Sed tincidunt dui eget erat commodo
-        semper. Praesent finibus sodales posuere. Praesent lobortis ex vel leo tristique porttitor. Praesent ac
-        maximus velit, at venenatis elit. Vestibulum urna risus, dapibus eget luctus a, mattis in mauris. Duis eu
-        nunc consectetur, convallis diam eget, iaculis massa. Pellentesque placerat nibh id aliquam iaculis. Nam
-        dapibus turpis at elit vestibulum, sit amet semper ante consequat. Vestibulum porttitor pellentesque leo,
-        quis semper libero accumsan a.</p>
-</div>
-
-<div class="row">
-    <footer>
-        This is a footer<br>
-        <a href="admin/index.php">Admin Panel</a>
-    </footer>
-    <div class="col-md-12">
-
+        </div>
     </div>
-</div>
-</div>
 </div>
 
 
