@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PhP-platzi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PhP-platzi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/admin/insert-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/insert-post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/admin/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/public/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/Blog/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -21,6 +30,7 @@
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/Blog/vendor/composer" />
+      <path value="$PROJECT_DIR$/Blog/vendor/phroute/phroute" />
     </include_path>
   </component>
   <component name="ProjectId" id="1iKcHSqXAUSwcrUKSBcqBnFjlNo" />
@@ -35,6 +45,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lewiis\Desktop\PhP-platzi\Blog" />
     </key>
@@ -50,7 +63,9 @@
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
       <workItem from="1601906244375" duration="44296000" />
-      <workItem from="1601954819141" duration="977000" />
+      <workItem from="1601954819141" duration="1217000" />
+      <workItem from="1601956783953" duration="28000" />
+      <workItem from="1601993253707" duration="4245000" />
     </task>
     <servers />
   </component>

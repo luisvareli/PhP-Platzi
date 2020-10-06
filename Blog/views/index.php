@@ -1,11 +1,3 @@
-<?php
-include_once 'config.php';
-$query = $pdo->prepare('SELECT * FROM blog_posts ORDER BY id DESC ');
-$query->execute();
-
-$blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
-
-?>
 
 
 <html>
@@ -32,7 +24,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
                 echo '<h2>' . $blogPost['title'] . '</h2>';
                 echo '<p>Oct 5, 2020 by <a href="">Luis</a></p>';
                 echo '<div class="blog-post-image">';
-                echo '<img src="images/banner.jpg" alt="">';
+                echo '<img src="../public/images/banner.jpg" alt="">';
                 echo '</div>';
                 echo '<div class="blog-post-content">';
                 echo $blogPost['content'];
@@ -49,7 +41,7 @@ $blogPosts = $query->fetchAll(PDO::FETCH_ASSOC);
     <div class="row">
         <footer>
             This is a footer<br>
-            <a href="admin/index.php">Admin Panel</a>
+            <a href="../admin/index.php">Admin Panel</a>
         </footer>
         <div class="col-md-12">
 
