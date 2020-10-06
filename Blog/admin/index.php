@@ -35,6 +35,7 @@
             quis semper libero accumsan a.
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-12">
             <footer>
@@ -44,8 +45,6 @@
         </div>
     </div>
 </div>
-
-
 
 
 </div>

@@ -1,6 +1,18 @@
 <?php
 include_once '../config.php';
 
+$result = false;
+
+if (!empty($_POST)) {
+    $sql = 'INSERT INTO blog_posts(title, content) VALUES(:title,:content)';
+    $query = $pdo->prepare($sql);
+
+    $result = $query->execute([
+        'title' => $_POST['title'],
+        'content' => $_POST['content']
+    ]);
+}
+
 ?>
 
 
@@ -20,53 +32,48 @@ include_once '../config.php';
             <h1>Blog Title</h1>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-8">
-            <h2>Posts</h2>
-            <a class="btn btn-primary" href="insert-post.php">Back</a>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <h2>New Posts</h2>
+        <p>
+            <a class="btn btn-primary" href="post.php">Back</a>
+        </p>
+        <?php
+        if ($result) {
+            echo '<div class="alert alert-success">Post Saved!</div>';
+        }
+        ?>
+        <form action="insert-post.php" method="post">
+            <div class="form-group">
+                <label for="inputTitle">Title</label>
+                <input type="text" class="form-control" name="title" id="inputTitle">
+            </div>
 
-            <form action="insert-post.php" method="post">
-                <div class = "form-group">
-                    <label for="inputTitle">Title</label>
-                    <input class="form-control" type="text" name="title" id="inputTitle">
-                </div>
-                
-                <textarea class="form-control" name="content" id="inputContent" rows="5"></textarea>
-                <br>
-                <input class="btn-primary" type="submit" value="Save">
-            </form>
+            <textarea class="form-control" name="content" id="inputContent" rows="5"></textarea>
+            <br>
+            <input class="btn-primary" type="submit" value="Save">
+        </form>
+    </div>
 
-
-
-
-
-        </div>
-
-        <div class="col-md-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada lorem sit amet mauris venenatis,
+    <div class="col-md-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada lorem sit amet mauris venenatis,
             ut scelerisque sapien venenatis. Duis efficitur odio id gravida posuere. Sed tincidunt dui eget erat commodo
             semper. Praesent finibus sodales posuere. Praesent lobortis ex vel leo tristique porttitor. Praesent ac
             maximus velit, at venenatis elit. Vestibulum urna risus, dapibus eget luctus a, mattis in mauris. Duis eu
             nunc consectetur, convallis diam eget, iaculis massa. Pellentesque placerat nibh id aliquam iaculis. Nam
             dapibus turpis at elit vestibulum, sit amet semper ante consequat. Vestibulum porttitor pellentesque leo,
-            quis semper libero accumsan a.
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <footer>
-                This is a footer<br>
-                <a href="admin/index.php">Admin Panel</a>
-            </footer>
-        </div>
+            quis semper libero accumsan a.</p>
     </div>
 </div>
-
-
-
+<div class="row">
+    <div class="col-md-12">
+        <footer>
+            This is a footer<br>
+            <a href="admin/index.php">Admin Panel</a>
+        </footer>
+    </div>
 </div>
-</div>
-
 
 </body>
 </html>
