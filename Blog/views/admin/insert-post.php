@@ -1,21 +1,3 @@
-<?php
-
-
-$result = false;
-
-if (!empty($_POST)) {
-    $sql = 'INSERT INTO blog_posts(title, content) VALUES(:title,:content)';
-    $query = $pdo->prepare($sql);
-
-    $result = $query->execute([
-        'title' => $_POST['title'],
-        'content' => $_POST['content']
-    ]);
-}
-
-?>
-
-
 <html>
 <head>
     <title>Databases with Platzi</title>
@@ -37,14 +19,14 @@ if (!empty($_POST)) {
     <div class="col-md-8">
         <h2>New Posts</h2>
         <p>
-            <a class="btn btn-primary" href="post.php">Back</a>
+            <a class="btn btn-primary" href="<?php echo BASE_URL; ?>admin/post">Back</a>
         </p>
         <?php
-        if ($result) {
+        if (isset($result) && $result){
             echo '<div class="alert alert-success">Post Saved!</div>';
         }
         ?>
-        <form action="insert-post.php" method="post">
+        <form method="post">
             <div class="form-group">
                 <label for="inputTitle">Title</label>
                 <input type="text" class="form-control" name="title" id="inputTitle">
@@ -70,7 +52,7 @@ if (!empty($_POST)) {
     <div class="col-md-12">
         <footer>
             This is a footer<br>
-            <a href="admin/index.php">Admin Panel</a>
+            <a href="index.php">Admin Panel</a>
         </footer>
     </div>
 </div>

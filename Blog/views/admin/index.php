@@ -14,25 +14,28 @@
             <h1>Blog Title</h1>
         </div>
     </div>
-
     <div class="row">
         <div class="col-md-8">
+        <h2>Admin Panel</h2>
             <ul>
                 <li>
-                    <a href="post.php">Manage Posts</a>
+                    <a href="<?php echo BASE_URL; ?>admin/post">Manage Posts</a>
                 </li>
             </ul>
-
         </div>
 
         <div class="col-md-4">
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada lorem sit amet mauris venenatis,
-            ut scelerisque sapien venenatis. Duis efficitur odio id gravida posuere. Sed tincidunt dui eget erat commodo
-            semper. Praesent finibus sodales posuere. Praesent lobortis ex vel leo tristique porttitor. Praesent ac
-            maximus velit, at venenatis elit. Vestibulum urna risus, dapibus eget luctus a, mattis in mauris. Duis eu
-            nunc consectetur, convallis diam eget, iaculis massa. Pellentesque placerat nibh id aliquam iaculis. Nam
-            dapibus turpis at elit vestibulum, sit amet semper ante consequat. Vestibulum porttitor pellentesque leo,
-            quis semper libero accumsan a.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam malesuada lorem sit amet mauris
+                venenatis,
+                ut scelerisque sapien venenatis. Duis efficitur odio id gravida posuere. Sed tincidunt dui eget erat
+                commodo
+                semper. Praesent finibus sodales posuere. Praesent lobortis ex vel leo tristique porttitor. Praesent ac
+                maximus velit, at venenatis elit. Vestibulum urna risus, dapibus eget luctus a, mattis in mauris. Duis
+                eu
+                nunc consectetur, convallis diam eget, iaculis massa. Pellentesque placerat nibh id aliquam iaculis. Nam
+                dapibus turpis at elit vestibulum, sit amet semper ante consequat. Vestibulum porttitor pellentesque
+                leo,
+                quis semper libero accumsan a.</p>
         </div>
     </div>
 
@@ -40,7 +43,7 @@
         <div class="col-md-12">
             <footer>
                 This is a footer<br>
-                <a href="admin/index.php">Admin Panel</a>
+                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
             </footer>
         </div>
     </div>
