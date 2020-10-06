@@ -7,6 +7,26 @@
       <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/Blog/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Blog/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Blog/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/Blog/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/Blog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Blog/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Blog/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/Blog/vendor/symfony/translation" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
