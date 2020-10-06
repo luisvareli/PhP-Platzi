@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Blog/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/composer.phar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/admin/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +12,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/Blog/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Blog/vendor/composer" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1iKcHSqXAUSwcrUKSBcqBnFjlNo" />
   <component name="ProjectViewState">
@@ -44,7 +49,8 @@
       <updated>1601659635636</updated>
       <workItem from="1601659636657" duration="12215000" />
       <workItem from="1601756267295" duration="7841000" />
-      <workItem from="1601906244375" duration="43495000" />
+      <workItem from="1601906244375" duration="44296000" />
+      <workItem from="1601954819141" duration="977000" />
     </task>
     <servers />
   </component>
