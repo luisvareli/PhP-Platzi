@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/insert-post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/insert-post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/admin/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/vendor/composer/autoload_static.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       <workItem from="1601954819141" duration="1217000" />
       <workItem from="1601956783953" duration="28000" />
       <workItem from="1601993253707" duration="7941000" />
-      <workItem from="1602003269329" duration="4176000" />
+      <workItem from="1602003269329" duration="8396000" />
     </task>
     <servers />
   </component>
