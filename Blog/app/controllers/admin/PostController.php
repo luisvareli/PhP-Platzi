@@ -44,5 +44,17 @@ class PostController extends BaseController {
         'result'=> $result,
         'errors'=> $errors
         ]);
+
+    }
+    public function getDetails ($id){
+        $detailsPost = BlogPost::find($id);
+
+        if (empty($detailsPost)){
+            return $this->render('errors/404.twig');
+        }else {
+            return $this->render('post/post-details.twig',['details'=>$detailsPost]);
+        }
+
+
     }
 }

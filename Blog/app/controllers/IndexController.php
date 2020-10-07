@@ -10,6 +10,7 @@ class IndexController extends BaseController {
         $blogPosts = BlogPost::query()->orderBy('id','desc')->get();
         return $this->render('index.twig', ['blogPosts' => $blogPosts]);
     }
+
 }
 
 

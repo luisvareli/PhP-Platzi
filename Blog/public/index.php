@@ -52,10 +52,12 @@ $router->group(['before' => 'auth'], function ($router){
     $router->controller('/admin', App\Controllers\Admin\IndexController::class);
     $router->controller('/admin/post',App\Controllers\Admin\PostController::class);
     $router->controller('/admin/users',App\Controllers\Admin\UserController::class);
-
 });
 
 $router->controller('/', App\Controllers\IndexController::class);
+
+$router->controller('/template', App\Controllers\TemplateController::class);
+$router->any('/post/{id}', ['App\Controllers\Admin\PostController', 'getDetails']);
 
 
 $dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
