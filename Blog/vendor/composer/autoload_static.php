@@ -40,6 +40,7 @@ class ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Console\\' => 26,
+            'Sirius\\Validation\\' => 18,
         ),
         'P' => 
         array (
@@ -121,6 +122,10 @@ class ComposerStaticInit7ec6e0c6cf1f34348c24e549a2d30a08
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Sirius\\Validation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/siriusphp/validation/src',
         ),
         'Psr\\SimpleCache\\' => 
         array (

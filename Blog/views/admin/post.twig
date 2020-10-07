@@ -9,12 +9,15 @@
         <tr>
             <th>Title</th>
             <th>Edit</th>
+{#            <th>Description</th>#}
+
             <th>Delete</th>
         </tr>
         {% for blogPost in blogPosts %}
             <tr>
                 <td>{{ blogPost.title }}</td>
                 <td>Edit</td>
+{#                <td>{{ blogPost.content }}</td>#}
                 <td>Delete</td>
             </tr>
             {% endfor %}

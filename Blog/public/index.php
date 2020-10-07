@@ -5,6 +5,8 @@ error_reporting(E_ALL);
 
 require_once '../vendor/autoload.php';
 
+session_start();
+
 $baseDir = str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 $baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . $baseDir;
 define('BASE_URL', $baseUrl);
@@ -37,8 +39,22 @@ use Phroute\Phroute\RouteCollector;
 
 $router = new RouteCollector();
 
-$router->controller('/admin', App\Controllers\Admin\IndexController::class);
-$router->controller('/admin/post',App\Controllers\Admin\PostController::class);
+$router->filter('auth', function () {
+    if (!isset($_SESSION['userId']))    {
+        header('Location: '. BASE_URL . 'auth/login');
+        return false;
+    }
+});
+
+$router->controller('/auth', App\Controllers\AuthController::class);
+
+$router->group(['before' => 'auth'], function ($router){
+    $router->controller('/admin', App\Controllers\Admin\IndexController::class);
+    $router->controller('/admin/post',App\Controllers\Admin\PostController::class);
+    $router->controller('/admin/users',App\Controllers\Admin\UserController::class);
+
+});
+
 $router->controller('/', App\Controllers\IndexController::class);
 
 

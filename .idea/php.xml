@@ -28,6 +28,7 @@
       <path value="$PROJECT_DIR$/Blog/vendor/illuminate/database" />
       <path value="$PROJECT_DIR$/Blog/vendor/illuminate/macroable" />
       <path value="$PROJECT_DIR$/Blog/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/Blog/vendor/siriusphp/validation" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7" />
