@@ -5,6 +5,8 @@ namespace App\Controllers\Admin;
 use App\Controllers\BaseController;
 use App\Models\BlogPost;
 use Sirius\Validation\Validator;
+use Symfony\Component\Form\Extension\Core\Type\TextareaType;
+
 
 class PostController extends BaseController {
     public function getIndex(){
@@ -46,15 +48,15 @@ class PostController extends BaseController {
         ]);
 
     }
-    public function getDetails ($id){
+    public function getDetails ($id)
+    {
         $detailsPost = BlogPost::find($id);
 
-        if (empty($detailsPost)){
+        if (empty($detailsPost)) {
             return $this->render('errors/404.twig');
-        }else {
-            return $this->render('post/post-details.twig',['details'=>$detailsPost]);
+        } else {
+            return $this->render('post/post-details.twig', ['details' => $detailsPost]);
         }
-
-
     }
+
 }

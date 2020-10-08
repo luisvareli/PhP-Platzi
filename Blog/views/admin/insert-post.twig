@@ -5,9 +5,10 @@
     <p>
         <a class="btn btn-primary" href="{{ 'admin/post' | url }}">Back</a>
     </p>
+
     {% if errors %}
     {% include('partials/errors.twig') %}
-{% endif %}
+    {% endif %}
     {% if result %}
         <div class="alert alert-success">Post Saved!</div>
     {% endif %}

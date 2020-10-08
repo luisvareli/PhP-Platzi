@@ -17,7 +17,14 @@
             {% endif %}
             <div class="blog-post-content">
                 {{ blogPost.content }}
+
             </div>
+
         </div>
     {% endfor %}
+
+    <div><p>{% include 'partials/pagination.twig' %}</p></div>
+
 {% endblock %}
+
+

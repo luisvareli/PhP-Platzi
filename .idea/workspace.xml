@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c8b75d0-85e1-40cd-8130-4f1e02e2178c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blog/app/controllers/TemplateController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/views/errors/404.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/views/post/post-details.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Blog/views/template.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blog/views/partials/pagination.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/app/controllers/IndexController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/app/controllers/admin/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/logs/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/logs/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Blog/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/admin/insert-post.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/insert-post.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/admin/users.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/admin/users.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Blog/views/index.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/index.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/views/post/post-details.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/views/post/post-details.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blog/app/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cursoLaravel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -100,7 +99,7 @@
       <workItem from="1602049695774" duration="316000" />
       <workItem from="1602079452403" duration="20228000" />
       <workItem from="1602100005372" duration="3784000" />
-      <workItem from="1602104135061" duration="9380000" />
+      <workItem from="1602104135061" duration="24278000" />
     </task>
     <servers />
   </component>
@@ -124,6 +123,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602107511330" />
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1602131819280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602131819280" />
     <state x="1252" y="447" key="NewPhpFileDialog" timestamp="1602098638389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

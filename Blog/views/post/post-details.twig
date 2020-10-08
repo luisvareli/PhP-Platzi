@@ -1,7 +1,11 @@
 {% extends "layout.twig" %}
 {% block content %}
  <div>
+
      <label for="">{{ details.title }}</label>
      <p>{{ details.content }}</p>
+     <p>
+         <a class="btn btn-primary" href="{{ '' | url}}">Back</a>
+     </p>
  </div>
 {% endblock %}
